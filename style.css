@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+
+  font-family: "Work Sans", sans-serif;
+}
+body {
+  min-height: 700px;
+  background-color: grey;
+  background-image: url(img/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.FAQs {
+  position: relative;
+  width: 80%;
+  min-height: 600px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+.FAQs .header {
+  display: flex;
+  margin-left: 10%;
+  gap: 20px;
+  padding-top: 40px;
+  color: rgb(45, 2, 86);
+}
+
+.question h2 {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.question p {
+  width: 90%;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+  color: grey;
+  height: 0;
+  overflow: hidden;
+}
+
+#question_minus_img {
+  visibility: hidden;
+}
+.question_header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.question_header img {
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+#question_minus_img {
+  position: relative;
+  left: -10px;
+}
+
+.question2 h2 {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.question2 p {
+  width: 90%;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+  color: grey;
+  height: 0;
+  overflow: hidden;
+}
+
+#question2_minus_img {
+  visibility: hidden;
+}
+.question2_header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.question2_header img {
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+#question2_minus_img {
+  position: relative;
+  left: -10px;
+}
+
+.question3 h2 {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.question3 p {
+  width: 90%;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+  color: grey;
+  height: 0;
+  overflow: hidden;
+}
+
+#question3_minus_img {
+  visibility: hidden;
+}
+.question3_header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.question3_header img {
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+#question3_minus_img {
+  position: relative;
+  left: -10px;
+}
+
+.question4 h2 {
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.question4 p {
+  width: 90%;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 5%;
+  color: grey;
+  height: 0;
+  overflow: hidden;
+}
+
+#question4_minus_img {
+  visibility: hidden;
+}
+.question4_header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.question4_header img {
+  margin-top: 30px;
+  cursor: pointer;
+  position: relative;
+  left: 50px;
+}
+#question4_minus_img {
+  position: relative;
+  left: -10px;
+}
+
+@media (min-width: 765px) {
+  body {
+    background-image: url(img/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+  }
+  .FAQs {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 900px) {
+  .FAQs {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1224px) {
+  .question p {
+    font-size: 20px;
+  }
+  .question h2 {
+    font-size: 30px;
+  }
+
+  .question2 p {
+    font-size: 20px;
+  }
+  .question2 h2 {
+    font-size: 30px;
+  }
+
+  .question3 p {
+    font-size: 20px;
+  }
+  .question3 h2 {
+    font-size: 30px;
+  }
+
+  .question4 p {
+    font-size: 20px;
+  }
+  .question4 h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .question p {
+    font-size: 20px;
+  }
+  .question h2 {
+    font-size: 30px;
+  }
+
+  .question2 p {
+    font-size: 20px;
+  }
+  .question2 h2 {
+    font-size: 30px;
+  }
+
+  .question3 p {
+    font-size: 20px;
+  }
+  .question3 h2 {
+    font-size: 30px;
+  }
+
+  .question4 p {
+    font-size: 20px;
+  }
+  .question4 h2 {
+    font-size: 30px;
+  }
+
+  .FAQs .header img {
+    width: 80px;
+    margin-left: -5%;
+  }
+  .FAQs .header h1 {
+    font-size: 60px;
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(img/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>FrontendMentor FAQ accordion</title>
+  </head>
+  <body>
+    <!-- <img class="backgroundimg" src="img/background-pattern-mobile.svg" alt="" /> -->
+    <div class="FAQs">
+      <div class="header">
+        <img src="img/icon-star.svg" alt="" />
+
+        <h1>FAQs</h1>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <div class="question_header">
+            <h2>What is frontend mentor, and how will it help me?</h2>
+            <img id="question_plus_img" src="img/icon-plus.svg" alt="" />
+            <img id="question_minus_img" src="img/icon-minus.svg" alt="" />
+          </div>
+
+          <p id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            aliquid perferendis voluptate expedita, nulla corporis rerum sint
+            atque ex unde nostrum fuga amet veniam odio quasi commodi, quos,
+            asperiores quam!
+          </p>
+        </div>
+      </div>
+
+     
+        <div class="question2">
+          <div class="question2_header">
+            <h2>Is fronend mentor Free?</h2>
+            <img id="question2_plus_img" src="img/icon-plus.svg" alt="" />
+            <img id="question2_minus_img" src="img/icon-minus.svg" alt="" />
+          </div>
+
+          <p id="text2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            aliquid perferendis voluptate expedita, nulla corporis rerum sint
+            atque ex unde nostrum fuga amet veniam odio quasi commodi, quos,
+            asperiores quam!
+          </p>
+        </div>
+
+
+
+        <div class="question3">
+            <div class="question3_header">
+              <h2>Can I use Frontend Mentor projects in my portfolio?</h2>
+              <img id="question3_plus_img" src="img/icon-plus.svg" alt="" />
+              <img id="question3_minus_img" src="img/icon-minus.svg" alt="" />
+            </div>
+  
+            <p id="text3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+              aliquid perferendis voluptate expedita, nulla corporis rerum sint
+              atque ex unde nostrum fuga amet veniam odio quasi commodi, quos,
+              asperiores quam!
+            </p>
+          </div>
+
+
+
+          <div class="question4">
+            <div class="question4_header">
+              <h2>How can i get help if I'am stuck on a challenge</h2>
+              <img id="question4_plus_img" src="img/icon-plus.svg" alt="" />
+              <img id="question4_minus_img" src="img/icon-minus.svg" alt="" />
+            </div>
+  
+            <p id="text4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+              aliquid perferendis voluptate expedita, nulla corporis rerum sint
+              atque ex unde nostrum fuga amet veniam odio quasi commodi, quos,
+              asperiores quam!
+            </p>
+          </div>
+    
+
+      
+    
+
+    <script>
+      let pTag = document.getElementById("text");
+      let minusImg = document.getElementById("question_minus_img");
+      let plusImg = document.getElementById("question_plus_img");
+
+      plusImg.addEventListener("click", show);
+      minusImg.addEventListener("click", close);
+
+      function show() {
+        pTag.style.height = "130px";
+        pTag.style.transition = ".2s";
+
+        plusImg.style.visibility = "hidden";
+        minusImg.style.visibility = "visible";
+      }
+
+      function close() {
+        pTag.style.height = "0px";
+
+        minusImg.style.visibility = "hidden";
+        plusImg.style.visibility = "visible";
+      }
+</script>
+
+
+<script>
+    let pTag2 = document.getElementById("text2");
+    let minusImg2 = document.getElementById("question2_minus_img");
+    let plusImg2 = document.getElementById("question2_plus_img");
+
+    plusImg2.addEventListener("click", show);
+    minusImg2.addEventListener("click", close);
+
+    function show() {
+      pTag2.style.height = "130px";
+      pTag2.style.transition = ".2s";
+
+      plusImg2.style.visibility = "hidden";
+      minusImg2.style.visibility = "visible";
+    }
+
+    function close() {
+      pTag2.style.height = "0px";
+
+      minusImg2.style.visibility = "hidden";
+      plusImg2.style.visibility = "visible";
+    }
+</script>
+
+
+<script>
+    let pTag3 = document.getElementById("text3");
+    let minusImg3 = document.getElementById("question3_minus_img");
+    let plusImg3 = document.getElementById("question3_plus_img");
+
+    plusImg3.addEventListener("click", show);
+    minusImg3.addEventListener("click", close);
+
+    function show() {
+      pTag3.style.height = "130px";
+      pTag3.style.transition = ".2s";
+
+      plusImg3.style.visibility = "hidden";
+      minusImg3.style.visibility = "visible";
+    }
+
+    function close() {
+      pTag3.style.height = "0px";
+
+      minusImg3.style.visibility = "hidden";
+      plusImg3.style.visibility = "visible";
+    }
+</script>
+
+
+<script>
+    let pTag4 = document.getElementById("text4");
+    let minusImg4 = document.getElementById("question4_minus_img");
+    let plusImg4 = document.getElementById("question4_plus_img");
+
+    plusImg4.addEventListener("click", show);
+    minusImg4.addEventListener("click", close);
+
+    function show() {
+      pTag4.style.height = "130px";
+      pTag4.style.transition = ".2s";
+
+      plusImg4.style.visibility = "hidden";
+      minusImg4.style.visibility = "visible";
+    }
+
+    function close() {
+      pTag4.style.height = "0px";
+
+      minusImg4.style.visibility = "hidden";
+      plusImg4.style.visibility = "visible";
+    }
+</script>
+
+
+  </body>
+</html>
